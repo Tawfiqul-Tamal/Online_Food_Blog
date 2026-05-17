@@ -1,6 +1,4 @@
 <?php
-// front controller - routes everything
-
 require_once __DIR__ . '/config/helpers.php';
 require_once __DIR__ . '/config/db.php';
 require_once __DIR__ . '/config/session.php';
@@ -24,7 +22,6 @@ if (preg_match('#^public/#', $route)) {
         exit;
     }
 }
-
 // route - using if/elseif so regex routes work properly
 $m = [];
 

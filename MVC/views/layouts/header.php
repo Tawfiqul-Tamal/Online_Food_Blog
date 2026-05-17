@@ -17,6 +17,7 @@ $title = isset($page_title) ? $page_title . ' - Foodly' : 'Foodly - Online Food 
 <body>
 
 <nav class="navbar">
+    
     <div class="nav-inner">
         <a class="brand" href="<?= url() ?>">Foodly<span class="dot">.</span></a>
         <ul class="nav-links">

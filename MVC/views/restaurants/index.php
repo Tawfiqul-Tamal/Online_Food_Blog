@@ -6,6 +6,7 @@
         </div>
     </div>
 
+
     <div class="search-row">
         <div class="form-group">
             <label for="hp-q">Search</label>
@@ -44,8 +45,7 @@
             <?php endforeach; ?>
         <?php endif; ?>
     </div>
-
     <div id="hp-results-items" class="cards" style="margin-top:2rem;"></div>
 </div>
-
 <script src="<?= asset('js/search.js') ?>"></script>
+
